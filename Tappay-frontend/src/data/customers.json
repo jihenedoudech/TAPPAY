@@ -1,0 +1,221 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "cin": "A123456789",
+    "email": "alice.johnson@example.com",
+    "phone": "+1234567890",
+    "address": {
+      "street": "123 Main St",
+      "city": "Springfield",
+      "state": "IL",
+      "zip": "62701"
+    },
+    "loyaltyCard": null,
+    "status": "active",
+    "dateOfBirth": "1990-05-15",
+    "registrationDate": "2021-06-01",
+    "purchaseHistory": []
+  },
+  
+  {
+    "id": 3,
+    "name": "Charlie Brown",
+    "cin": "C456789012",
+    "email": "charlie.brown@example.com",
+    "phone": "+1122334455",
+    "address": {
+      "street": "789 Maple Ave",
+      "city": "Gotham City",
+      "state": "NJ",
+      "zip": "07001"
+    },
+    "loyaltyCard": {
+      "points": 300,
+      "number": "LC456789012",
+      "expirationDate": "2025-11-10",
+      "creationDate": "2019-11-10",
+      "renewedDate": null,
+      "status": "inactive"
+    },
+    "status": "inactive",
+    "dateOfBirth": "1992-10-30",
+    "registrationDate": "2019-11-10",
+    "purchaseHistory": []
+  },
+  {
+    "id": 4,
+    "name": "Diana Prince",
+    "cin": "D321654987",
+    "email": "diana.prince@example.com",
+    "phone": "+3216549870",
+    "address": {
+      "street": "101 Willow St",
+      "city": "Star City",
+      "state": "CA",
+      "zip": "90210"
+    },
+    "loyaltyCard": {
+      "points": 250,
+      "number": "LC321654987",
+      "expirationDate": "2025-08-05",
+      "creationDate": "2022-08-05",
+      "renewedDate": null,
+      "status": "active"
+    },
+    "status": "active",
+    "dateOfBirth": "1995-12-01",
+    "registrationDate": "2022-08-05",
+    "purchaseHistory": []
+  },
+  {
+    "id": 5,
+    "name": "Edward Elric",
+    "cin": "E654987321",
+    "email": "edward.elric@example.com",
+    "phone": "+6549873210",
+    "address": {
+      "street": "202 Oak St",
+      "city": "Amestris",
+      "state": "MA",
+      "zip": "02101"
+    },
+    "loyaltyCard": {
+      "points": 400,
+      "number": "LC654987321",
+      "expirationDate": "2025-02-20",
+      "creationDate": "2021-02-20",
+      "renewedDate": null,
+      "status": "active"
+    },
+    "status": "active",
+    "dateOfBirth": "1989-09-14",
+    "registrationDate": "2021-02-20",
+    "purchaseHistory": []
+  },
+  {
+    "id": 6,
+    "name": "Fiona Gallagher",
+    "cin": "F987321654",
+    "email": "fiona.gallagher@example.com",
+    "phone": "+9873216540",
+    "address": {
+      "street": "303 Birch Rd",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60601"
+    },
+    "loyaltyCard": {
+      "points": 180,
+      "number": "LC987321654",
+      "expirationDate": "2025-12-30",
+      "creationDate": "2020-12-30",
+      "renewedDate": null,
+      "status": "active"
+    },
+    "status": "active",
+    "dateOfBirth": "1993-07-19",
+    "registrationDate": "2020-12-30",
+    "purchaseHistory": []
+  },
+  {
+    "id": 7,
+    "name": "George Stark",
+    "cin": "G159753468",
+    "email": "george.stark@example.com",
+    "phone": "+1597534680",
+    "address": {
+      "street": "404 Pine St",
+      "city": "Winterfell",
+      "state": "FL",
+      "zip": "33801"
+    },
+    "loyaltyCard": {
+      "points": 350,
+      "number": "LC159753468",
+      "expirationDate": "2025-03-12",
+      "creationDate": "2021-03-12",
+      "renewedDate": null,
+      "status": "inactive"
+    },
+    "status": "inactive",
+    "dateOfBirth": "1988-11-25",
+    "registrationDate": "2021-03-12",
+    "purchaseHistory": []
+  },
+  {
+    "id": 8,
+    "name": "Hannah Baker",
+    "cin": "H852963741",
+    "email": "hannah.baker@example.com",
+    "phone": "+8529637410",
+    "address": {
+      "street": "505 Cedar St",
+      "city": "Los Santos",
+      "state": "CA",
+      "zip": "90001"
+    },
+    "loyaltyCard": {
+      "points": 90,
+      "number": "LC852963741",
+      "expirationDate": "2025-01-15",
+      "creationDate": "2023-01-15",
+      "renewedDate": null,
+      "status": "active"
+    },
+    "status": "active",
+    "dateOfBirth": "1996-04-17",
+    "registrationDate": "2023-01-15",
+    "purchaseHistory": []
+  },
+  {
+    "id": 9,
+    "name": "Ivy Pepper",
+    "cin": "I741258963",
+    "email": "ivy.pepper@example.com",
+    "phone": "+7412589630",
+    "address": {
+      "street": "606 Fir St",
+      "city": "Gotham City",
+      "state": "NY",
+      "zip": "10001"
+    },
+    "loyaltyCard": {
+      "points": 75,
+      "number": "LC741258963",
+      "expirationDate": "2025-05-28",
+      "creationDate": "2021-05-28",
+      "renewedDate": null,
+      "status": "active"
+    },
+    "status": "active",
+    "dateOfBirth": "1994-02-22",
+    "registrationDate": "2021-05-28",
+    "purchaseHistory": []
+  },
+  {
+    "id": 10,
+    "name": "Jack Sparrow",
+    "cin": "J369258147",
+    "email": "jack.sparrow@example.com",
+    "phone": "+3692581470",
+    "address": {
+      "street": "707 Ocean Rd",
+      "city": "Tortuga",
+      "state": "CA",
+      "zip": "91001"
+    },
+    "loyaltyCard": {
+      "points": 220,
+      "number": "LC369258147",
+      "expirationDate": "2025-08-10",
+      "creationDate": "2019-08-10",
+      "renewedDate": null,
+      "status": "active"
+    },
+    "status": "active",
+    "dateOfBirth": "1978-05-29",
+    "registrationDate": "2019-08-10",
+    "purchaseHistory": []
+  }
+]

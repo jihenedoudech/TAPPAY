@@ -1,0 +1,89 @@
+[
+    {
+      "id": 1,
+      "name": "ABC Supplies",
+      "address": {
+        "street": "123 Supply St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001"
+      },
+      "number": "+1-555-0100",
+      "active": true,
+      "purchaseHistory": [
+        {
+          "orderId": "PO12345",
+          "date": "2024-01-15",
+          "items": [
+            { "item": "Paper", "quantity": 500, "price": 10.5 },
+            { "item": "Ink", "quantity": 50, "price": 25.0 }
+          ],
+          "totalAmount": 550.0
+        },
+        {
+          "orderId": "PO12356",
+          "date": "2024-03-10",
+          "items": [
+            { "item": "Staplers", "quantity": 20, "price": 8.0 },
+            { "item": "Binders", "quantity": 100, "price": 2.5 }
+          ],
+          "totalAmount": 330.0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Global Industrial",
+      "address": {
+        "street": "456 Warehouse Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90001"
+      },
+      "number": "+1-555-0200",
+      "active": false,
+      "purchaseHistory": [
+        {
+          "orderId": "PO12378",
+          "date": "2024-04-22",
+          "items": [
+            { "item": "Cables", "quantity": 200, "price": 1.5 },
+            { "item": "Switches", "quantity": 50, "price": 12.0 }
+          ],
+          "totalAmount": 450.0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Supply Chain Co.",
+      "address": {
+        "street": "789 Distribution Rd",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60601"
+      },
+      "number": "+1-555-0300",
+      "active": true,
+      "purchaseHistory": [
+        {
+          "orderId": "PO12400",
+          "date": "2024-05-05",
+          "items": [
+            { "item": "Boxes", "quantity": 300, "price": 0.5 },
+            { "item": "Tape", "quantity": 100, "price": 1.2 }
+          ],
+          "totalAmount": 210.0
+        },
+        {
+          "orderId": "PO12405",
+          "date": "2024-06-12",
+          "items": [
+            { "item": "Envelopes", "quantity": 200, "price": 0.25 },
+            { "item": "Markers", "quantity": 50, "price": 1.5 }
+          ],
+          "totalAmount": 95.0
+        }
+      ]
+    }
+]

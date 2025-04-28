@@ -1,0 +1,382 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphone",
+    "sellingPrice": 499,
+    "discountType": 1,
+    "discountAmount": 10,
+    "stock": 12,
+    "arrivalDate": "2024-09-01",
+    "salesCount": 150,
+    "image": "smartphone.jpg",
+    "category": {
+      "id": 1,
+      "name": "Electronics" 
+    },
+    "barcode": "1234567890123",
+    "sku": "SKU001",
+    "description": "Latest smartphone with advanced features.",
+    "purchasePrice": 350
+  },
+  {
+    "id": 2,
+    "name": "Laptop",
+    "sellingPrice": 899,
+    "discountType": 0,
+    "discountAmount": 0,
+    "stock": 5,
+    "arrivalDate": "2024-08-15",
+    "salesCount": 75,
+    "image": "laptop.jpg",
+    "category": {
+      "id": 1,
+      "name": "Electronics"
+    },
+    "barcode": "1234567890123",
+    "sku": "SKU002",
+    "description": "High-performance laptop with powerful processor.",
+    "purchasePrice": 650
+  },
+  {
+    "id": 3,
+    "name": "Headphones",
+    "sellingPrice": 59,
+    "discountType": 1,
+    "discountAmount": 15,
+    "stock": 0,
+    "arrivalDate": "2024-09-10",
+    "salesCount": 200,
+    "image": "headphones.jpg",
+    "category": {
+      "id": 1,
+      "name": "Electronics"
+    },
+    "barcode": "1234567890123",
+    "sku": "SKU003",
+    "description": "High-quality headphones with noise-cancelling technology.",
+    "purchasePrice": 40
+  },
+  {
+    "id": 4,
+    "name": "Wristwatch",
+    "sellingPrice": 199,
+    "discountType": 0,
+    "discountAmount": 0,
+    "stock": 8,
+    "arrivalDate": "2024-07-20",
+    "salesCount": 50,
+    "image": "wristwatch.jpg",
+    "category": {
+      "id": 3,
+      "name": "Accessories"
+    },
+    "barcode": "1234567890123",
+    "sku": "SKU004",
+    "description": "Stylish wristwatch with a classic design.",
+    "purchasePrice": 150
+  },
+  {
+    "id": 5,
+    "name": "Tablet",
+    "sellingPrice": 299,
+    "discountType": 2,
+    "discountAmount": 5,
+    "stock": 20,
+    "arrivalDate": "2024-08-30",
+    "salesCount": 90,
+    "image": "tablet.jpg",
+    "category": {
+      "id": 1,
+      "name": "Electronics"
+    },
+    "barcode": "1234567890123",
+    "sku": "SKU005",
+    "description": "High-quality tablet with a large display.",
+    "purchasePrice": 200
+  },
+  {
+    "id": 6,
+    "name": "Wireless Mouse",
+    "sellingPrice": 29,
+    "discountType": 0,
+    "discountAmount": 0,
+    "stock": 50,
+    "arrivalDate": "2024-06-15",
+    "salesCount": 250,
+    "image": "mouse.jpg",
+    "category": {
+      "id": 1,
+      "name": "Electronics"
+    },
+    "barcode": "1234567890123",
+    "sku": "SKU006",
+    "description": "High-quality mouse with a comfortable design.",
+    "purchasePrice": 20
+  },
+  {
+    "id": 7,
+    "name": "Keyboard",
+    "sellingPrice": 49,
+    "discountType": 0,
+    "discountAmount": 0,
+    "stock": 30,
+    "arrivalDate": "2024-05-10",
+    "salesCount": 180,
+    "image": "keyboard.jpg",
+    "category": {
+      "id": 1,
+      "name": "Electronics"
+    },
+    "barcode": "1234567890123",
+    "sku": "SKU007",
+    "description": "High-quality keyboard with a comfortable design.",
+    "purchasePrice": 30
+  },
+  {
+    "id": 8,
+    "name": "Gaming Chair",
+    "sellingPrice": 199,
+    "discountType": 1,
+    "discountAmount": 20,
+    "stock": 10,
+    "arrivalDate": "2024-08-01",
+    "salesCount": 65,
+    "image": "gamingchair.jpg",
+    "category": {
+      "id": 7,
+      "name": "Furniture"
+    },
+    "barcode": "1234567890123",
+    "sku": "SKU008",
+    "description": "High-quality gaming chair with a comfortable design.",
+    "purchasePrice": 150
+  },
+  {
+    "id": 9,
+    "name": "Monitor",
+    "sellingPrice": 299,
+    "discountType": 2,
+    "discountAmount": 10,
+    "stock": 15,
+    "arrivalDate": "2024-07-25",
+    "salesCount": 120,
+    "image": "monitor.jpg",
+    "category": {
+      "id": 1,
+      "name": "Electronics"
+    },
+    "barcode": "1234567890123",
+    "sku": "SKU009",
+    "description": "High-quality monitor with a large display.",
+    "purchasePrice": 200
+  },
+  {
+    "id": 10,
+    "name": "External Hard Drive",
+    "sellingPrice": 79,
+    "discountType": 0,
+    "discountAmount": 0,
+    "stock": 25,
+    "arrivalDate": "2024-06-05",
+    "salesCount": 95,
+    "image": "harddrive.jpg",
+    "category": {
+      "id": 1,
+      "name": "Electronics"
+    },
+    "barcode": "1234567890123",
+    "sku": "SKU010",
+    "description": "High-quality external hard drive with a large storage capacity.",
+    "purchasePrice": 50
+  },
+  {
+    "id": 11,
+    "name": "Smart Speaker",
+    "sellingPrice": 129,
+    "discountType": 1,
+    "discountAmount": 5,
+    "stock": 20,
+    "arrivalDate": "2024-07-15",
+    "salesCount": 130,
+    "image": "smartspeaker.jpg",
+    "category": {
+      "id": 1,
+      "name": "Electronics"
+    },
+    "barcode": "1234567890123",
+    "sku": "SKU011",
+    "description": "High-quality smart speaker with a comfortable design.",
+    "purchasePrice": 100
+  },
+  {
+    "id": 12,
+    "name": "Smartwatch",
+    "sellingPrice": 199,
+    "discountType": 1,
+    "discountAmount": 15,
+    "stock": 18,
+    "arrivalDate": "2024-09-05",
+    "salesCount": 60,
+    "image": "smartwatch.jpg",
+    "category": {
+      "id": 3,
+      "name": "Accessories"
+    },
+    "barcode": "1234567890123",
+    "sku": "SKU012",
+    "description": "High-quality smartwatch with a comfortable design.",
+    "purchasePrice": 150
+  },
+  {
+    "id": 13,
+    "name": "Bluetooth Earbuds",
+    "sellingPrice": 59,
+    "discountType": 1,
+    "discountAmount": 10,
+    "stock": 40,
+    "arrivalDate": "2024-09-10",
+    "salesCount": 110,
+    "image": "earbuds.jpg",
+    "category": {
+      "id": 1,
+      "name": "Electronics"
+    },
+    "barcode": "1234567890123",
+    "sku": "SKU013",
+    "description": "High-quality bluetooth earbuds with a comfortable design.",
+    "purchasePrice": 40
+  },
+  {
+    "id": 14,
+    "name": "4K TV",
+    "sellingPrice": 499,
+    "discountType": 2,
+    "discountAmount": 5,
+    "stock": 5,
+    "arrivalDate": "2024-08-12",
+    "salesCount": 30,
+    "image": "4ktv.jpg",
+    "category": {
+      "id": 1,
+      "name": "Electronics"
+      },
+    "barcode": "1234567890123",
+    "sku": "SKU014",
+    "description": "High-quality 4K TV with a large display.",
+    "purchasePrice": 400
+  },
+  {
+    "id": 15,
+    "name": "Router",
+    "sellingPrice": 99,
+    "discountType": 0,
+    "discountAmount": 0,
+    "stock": 30,
+    "arrivalDate": "2024-07-22",
+    "salesCount": 70,
+    "image": "router.jpg",
+    "category": {
+      "id": 1,
+      "name": "Electronics"
+    },
+    "barcode": "1234567890123",
+    "sku": "SKU015",
+    "description": "High-quality router with a comfortable design.",
+    "purchasePrice": 70
+  },
+  {
+    "id": 16,
+    "name": "Digital Camera",
+    "sellingPrice": 599,
+    "discountType": 1,
+    "discountAmount": 20,
+    "stock": 12,
+    "arrivalDate": "2024-09-12",
+    "salesCount": 40,
+    "image": "camera.jpg",
+    "category": {
+      "id": 1,
+      "name": "Electronics"
+    },
+    "barcode": "1234567890123",
+    "sku": "SKU016",
+    "description": "High-quality digital camera with a large display.",
+    "purchasePrice": 400
+  },
+  {
+    "id": 17,
+    "name": "VR Headset",
+    "sellingPrice": 299,
+    "discountType": 1,
+    "discountAmount": 15,
+    "stock": 8,
+    "arrivalDate": "2024-08-25",
+    "salesCount": 20,
+    "image": "vrheadset.jpg",
+    "category": {
+      "id": 1,
+      "name": "Electronics"
+    },
+    "barcode": "1234567890123",
+    "sku": "SKU017",
+    "description": "High-quality VR headset with a comfortable design.",
+    "purchasePrice": 200
+  },
+  {
+    "id": 18,
+    "name": "Smart Light Bulbs",
+    "sellingPrice": 39,
+    "discountType": 0,
+    "discountAmount": 0,
+    "stock": 100,
+    "arrivalDate": "2024-06-30",
+    "salesCount": 300,
+    "image": "lightbulbs.jpg",
+    "category": {
+      "id": 1,
+      "name": "Electronics"
+    },
+    "barcode": "1234567890123",
+    "sku": "SKU018",
+    "description": "High-quality smart light bulbs with a comfortable design.",
+    "purchasePrice": 20
+  },
+  {
+    "id": 19,
+    "name": "Smart Doorbell",
+    "sellingPrice": 99,
+    "discountType": 1,
+    "discountAmount": 10,
+    "stock": 30,
+    "arrivalDate": "2024-09-20",
+    "salesCount": 85,
+    "image": "doorbell.jpg",
+    "category": {
+      "id": 1,
+      "name": "Electronics"
+    },
+    "barcode": "1234567890123",
+    "sku": "SKU019",
+    "description": "High-quality smart doorbell with a comfortable design.",
+    "purchasePrice": 70
+  },
+  {
+    "id": 20,
+    "name": "Portable Speaker",
+    "sellingPrice": 49,
+    "discountType": 0,
+    "discountAmount": 0,
+    "stock": 35,
+    "arrivalDate": "2024-07-05",
+    "salesCount": 140,
+    "image": "portablespeaker.jpg",
+    "category": {
+      "id": 1,
+      "name": "Electronics"
+    },
+    "barcode": "1234567890123",
+    "sku": "SKU020",
+    "description": "High-quality portable speaker with a comfortable design.",
+    "purchasePrice": 30
+  }
+]

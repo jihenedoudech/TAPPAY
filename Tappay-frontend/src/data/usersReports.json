@@ -1,0 +1,50 @@
+{
+  "userData": [
+    {
+      "userId": 1,
+      "userName": "cashier1",
+      "numberOfShifts": 10,
+      "totalSales": 5000.000,
+      "totalProfit": 1000.000,
+      "totalTransactions": 200,
+      "totalItems": 500,
+      "totalDiscounts": 200.000,
+      "totalRefunds": 100.000,
+      "totalExpenses": 300.000,
+      "averageSalesPerShift": 500.000
+    },
+    {
+      "userId": 2,
+      "userName": "manager1",
+      "numberOfShifts": 15,
+      "totalSales": 7500.000,
+      "totalProfit": 1500.000,
+      "totalTransactions": 300,
+      "totalItems": 750,
+      "totalDiscounts": 300.000,
+      "totalRefunds": 150.000,
+      "totalExpenses": 450.000,
+      "averageSalesPerShift": 500.000
+    }
+  ],
+  "totalSalesByUser": [
+    {
+      "userName": "cashier1",
+      "totalSales": 5000.000
+    },
+    {
+      "userName": "manager1",
+      "totalSales": 7500.000
+    }
+  ],
+  "averageSalesPerShiftByUser": [
+    {
+      "userName": "cashier1",
+      "averageSalesPerShift": 500.000
+    },
+    {
+      "userName": "manager1",
+      "averageSalesPerShift": 500.000
+    }
+  ]
+}

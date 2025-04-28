@@ -1,0 +1,66 @@
+{
+  "dailyData": [
+    {
+      "date": "2024-12-01",
+      "totalSales": 1500.0,
+      "netSales": 1400.0,
+      "costOfGoodsSold": 800.0,
+      "refunds": 100.0,
+      "discounts": 50.0,
+      "margin": 600.0
+    },
+    {
+      "date": "2024-12-02",
+      "totalSales": 2000.0,
+      "netSales": 1900.0,
+      "costOfGoodsSold": 1200.0,
+      "refunds": 0.0,
+      "discounts": 100.0,
+      "margin": 700.0
+    },
+    {
+      "date": "2024-12-03",
+      "totalSales": 1700.0,
+      "netSales": 1600.0,
+      "costOfGoodsSold": 900.0,
+      "refunds": 0.0,
+      "discounts": 100.0,
+      "margin": 700.0
+    },
+    {
+      "date": "2024-12-04",
+      "totalSales": 2200.0,
+      "netSales": 2100.0,
+      "costOfGoodsSold": 1100.0,
+      "refunds": 200.0,
+      "discounts": 100.0,
+      "margin": 1000.0
+    },
+    {
+      "date": "2024-12-06",
+      "totalSales": 1300.0,
+      "netSales": 1250.0,
+      "costOfGoodsSold": 700.0,
+      "refunds": 50.0,
+      "discounts": 50.0,
+      "margin": 550.0
+    },
+    {
+      "date": "2024-12-07",
+      "totalSales": 1800.0,
+      "netSales": 1700.0,
+      "costOfGoodsSold": 1000.0,
+      "refunds": 0.0,
+      "discounts": 100.0,
+      "margin": 700.0
+    }
+  ],
+  "totalSummary": {
+    "totalSales": 10500.0,
+    "netSales": 9950.0,
+    "costOfGoodsSold": 5700.0,
+    "refunds": 350.0,
+    "discounts": 500.0,
+    "margin": 4250.0
+  }
+}

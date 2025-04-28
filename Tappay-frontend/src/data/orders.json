@@ -1,0 +1,278 @@
+[
+  {
+    "id": 1,
+    "orderNumber": "2510-0001",
+    "status": "Confirmed",
+    "customer": "John Doe",
+    "dateTime": "2024-10-20T15:34:00Z",
+    "totalAmount": 150.0,
+    "totalItems": 3,
+    "purchasedItems": [
+      {
+        "id": "prod001",
+        "name": "Product 1",
+        "quantity": 2,
+        "sellingPrice": 50
+      },
+      {
+        "id": "prod002",
+        "name": "Product 2",
+        "quantity": 1,
+        "sellingPrice": 50
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "orderNumber": "2510-0002",
+    "status": "Draft",
+    "customer": "Jane Smith",
+    "dateTime": "2024-10-19T10:24:00Z",
+    "totalAmount": 75.0,
+    "totalItems": 2,
+    "purchasedItems": [
+      {
+        "id": "prod003",
+        "name": "Product 3",
+        "quantity": 1,
+        "sellingPrice": 35
+      },
+      {
+        "id": "prod004",
+        "name": "Product 4",
+        "quantity": 1,
+        "sellingPrice": 40
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "orderNumber": "2510-0003",
+    "status": "Completed",
+    "customer": "Michael Johnson",
+    "dateTime": "2024-10-18T18:15:00Z",
+    "totalAmount": 220.5,
+    "totalItems": 4,
+    "purchasedItems": [
+      {
+        "id": "prod005",
+        "name": "Product 5",
+        "quantity": 3,
+        "sellingPrice": 55
+      },
+      {
+        "id": "prod006",
+        "name": "Product 6",
+        "quantity": 1,
+        "sellingPrice": 55.5
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "orderNumber": "2510-0004",
+    "status": "Confirmed",
+    "customer": "Emily Davis",
+    "dateTime": "2024-10-21T12:00:00Z",
+    "totalAmount": 95.0,
+    "totalItems": 2,
+    "purchasedItems": [
+      {
+        "id": "prod007",
+        "name": "Product 7",
+        "quantity": 1,
+        "sellingPrice": 45
+      },
+      {
+        "id": "prod008",
+        "name": "Product 8",
+        "quantity": 1,
+        "sellingPrice": 50
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "orderNumber": "2510-0005",
+    "status": "Draft",
+    "customer": "William Brown",
+    "dateTime": "2024-10-22T09:15:00Z",
+    "totalAmount": 120.0,
+    "totalItems": 3,
+    "purchasedItems": [
+      {
+        "id": "prod009",
+        "name": "Product 9",
+        "quantity": 2,
+        "sellingPrice": 40
+      },
+      {
+        "id": "prod010",
+        "name": "Product 10",
+        "quantity": 1,
+        "sellingPrice": 40
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "orderNumber": "2510-0006",
+    "status": "Completed",
+    "customer": "Olivia Wilson",
+    "dateTime": "2024-10-23T14:45:00Z",
+    "totalAmount": 185.0,
+    "totalItems": 5,
+    "purchasedItems": [
+      {
+        "id": "prod011",
+        "name": "Product 11",
+        "quantity": 1,
+        "sellingPrice": 85
+      },
+      {
+        "id": "prod012",
+        "name": "Product 12",
+        "quantity": 4,
+        "sellingPrice": 25
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "orderNumber": "2510-0007",
+    "status": "Confirmed",
+    "customer": "James Taylor",
+    "dateTime": "2024-10-24T16:30:00Z",
+    "totalAmount": 60.0,
+    "totalItems": 2,
+    "purchasedItems": [
+      {
+        "id": "prod013",
+        "name": "Product 13",
+        "quantity": 1,
+        "sellingPrice": 30
+      },
+      {
+        "id": "prod014",
+        "name": "Product 14",
+        "quantity": 1,
+        "sellingPrice": 30
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "orderNumber": "2510-0008",
+    "status": "Draft",
+    "customer": "Sophia Martinez",
+    "dateTime": "2024-10-25T11:15:00Z",
+    "totalAmount": 135.0,
+    "totalItems": 3,
+    "purchasedItems": [
+      {
+        "id": "prod015",
+        "name": "Product 15",
+        "quantity": 2,
+        "sellingPrice": 45
+      },
+      {
+        "id": "prod016",
+        "name": "Product 16",
+        "quantity": 1,
+        "sellingPrice": 45
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "orderNumber": "2510-0009",
+    "status": "Completed",
+    "customer": "Liam Jackson",
+    "dateTime": "2024-10-26T09:00:00Z",
+    "totalAmount": 190.0,
+    "totalItems": 4,
+    "purchasedItems": [
+      {
+        "id": "prod017",
+        "name": "Product 17",
+        "quantity": 3,
+        "sellingPrice": 50
+      },
+      {
+        "id": "prod018",
+        "name": "Product 18",
+        "quantity": 1,
+        "sellingPrice": 40
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "orderNumber": "2510-0010",
+    "status": "Confirmed",
+    "customer": "Isabella White",
+    "dateTime": "2024-10-27T10:30:00Z",
+    "totalAmount": 80.0,
+    "totalItems": 2,
+    "purchasedItems": [
+      {
+        "id": "prod019",
+        "name": "Product 19",
+        "quantity": 1,
+        "sellingPrice": 30
+      },
+      {
+        "id": "prod020",
+        "name": "Product 20",
+        "quantity": 1,
+        "sellingPrice": 50
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "orderNumber": "2510-0011",
+    "status": "Draft",
+    "customer": "Mason Harris",
+    "dateTime": "2024-10-28T14:00:00Z",
+    "totalAmount": 65.0,
+    "totalItems": 2,
+    "purchasedItems": [
+      {
+        "id": "prod021",
+        "name": "Product 21",
+        "quantity": 1,
+        "sellingPrice": 25
+      },
+      {
+        "id": "prod022",
+        "name": "Product 22",
+        "quantity": 1,
+        "sellingPrice": 40
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "orderNumber": "2510-0012",
+    "status": "Completed",
+    "customer": "Evelyn King",
+    "dateTime": "2024-10-29T15:45:00Z",
+    "totalAmount": 110.0,
+    "totalItems": 3,
+    "purchasedItems": [
+      {
+        "id": "prod023",
+        "name": "Product 23",
+        "quantity": 2,
+        "sellingPrice": 40
+      },
+      {
+        "id": "prod024",
+        "name": "Product 24",
+        "quantity": 1,
+        "sellingPrice": 30
+      }
+    ]
+  }
+]
