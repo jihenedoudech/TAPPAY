@@ -180,7 +180,7 @@ const CurrentShiftPage = () => {
     <Page style={{ background: NeutralBackground }}>
       <PageContainer>
         <PageHeader>
-          <h2 style={{ color: AccentColor }}>Current Shift</h2>
+          <h2 style={{ color: AccentColor }}>Current Shift Overview</h2>
         </PageHeader>
 
         {/* Shift Summary Section */}
