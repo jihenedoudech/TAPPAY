@@ -49,8 +49,11 @@ const OpenShiftContainer = styled.div`
 
 const ClosedShiftContainer = styled.div`
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 10px;
+  > * {
+    flex: 1;
+    white-space: nowrap;
+  }
 `;
 
 const ShiftDeatilsSetcion = styled.div`
@@ -91,11 +94,11 @@ const DetailCard = styled.div`
     box-shadow 0.3s;
   display: flex; /* Ensures content alignment */
   flex-direction: column;
-  align-items: flex-start; /* Align content to the top-left */
+  align-items: flex-start; /* Align content to the left */
   gap: 5px; /* Add small spacing between items */
   &:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 15px ${ShadowColor};
   }
 `;
 
@@ -180,7 +183,7 @@ const CurrentShiftPage = () => {
     <Page style={{ background: NeutralBackground }}>
       <PageContainer>
         <PageHeader>
-          <h2 style={{ color: AccentColor }}>Current Shift</h2>
+          <h2 style={{ color: AccentColor }}>Current Shift Overview</h2>
         </PageHeader>
 
         {/* Shift Summary Section */}
